@@ -10,13 +10,14 @@ namespace BeefLangStuff
 		public int32 PreFrames;
 		public int32 FrameCount;
 		public int32 SteamID;
+		public float Time;
 
 
 
 		protected List<ReplayFrame> frames;
 		protected bool IsFramesScoped = false;
-		protected String header;
-		protected bool IsHeaderScoped = false;
+		protected String format;
+		protected bool IsFormatScoped = false;
 		protected String map;
 		protected bool IsMapScoped = false;
 
@@ -32,10 +33,10 @@ namespace BeefLangStuff
 			this.IsMapScoped = isScoped;
 		}
 
-		public void SetHeader(String head, bool isScoped = true)
+		public void SetFormat(String head, bool isScoped = true)
 		{
-			this.Header = head;
-			this.IsHeaderScoped = isScoped;
+			this.Format = head;
+			this.IsFormatScoped = isScoped;
 		}
 
 		public List<ReplayFrame> Frames
@@ -62,15 +63,15 @@ namespace BeefLangStuff
 			}
 		}
 
-		public String Header
+		public String Format
 		{
 			get
 			{
-				return Header;
+				return format;
 			}
 			protected set
 			{
-				header = value;
+				format = value;
 			}
 		}
 
@@ -83,15 +84,15 @@ namespace BeefLangStuff
 
 		public ~this()
 		{
-			if(!this.IsHeaderScoped)
+			if(!this.IsFormatScoped && Format != null)
 			{
-				delete Header;
+				delete Format;
 			}
-			if(!this.IsFramesScoped)
+			if(!this.IsFramesScoped && Frames != null)
 			{
 				delete Frames;
 			}
-			if(!this.IsMapScoped)
+			if(!this.IsMapScoped && Map != null)
 			{
 				delete Map;
 			}

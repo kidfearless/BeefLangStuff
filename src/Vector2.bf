@@ -4,15 +4,23 @@ namespace BeefLangStuff
 {
 	struct Vector2
 	{
-		public int32 X;
-		public int32 Y;
+		public float X;
+		public float Y;
 
 		public float Length
 		{
-			get
+			get 
 			{
 				return Math.Sqrt((X * X) + (Y * Y));
 			}
+		}
+
+		public void ToJSONObject(String buffer)
+		{
+			buffer.Append("{");
+			buffer.Append(scope $"\"X\": {X},");
+			buffer.Append(scope $"\t\"Y\": {Y}");
+			buffer.Append("}");
 		}
 	}
 }

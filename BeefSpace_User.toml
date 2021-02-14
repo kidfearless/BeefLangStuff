@@ -1,38 +1,45 @@
 FileVersion = 1
 LastConfig = "Debug"
 LastPlatform = "Win64"
-RecentFilesList = ["src\\Program2.bf", "src\\ReplayFrame.bf", "src\\ShavitReplay.bf", "src\\Program3.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\String.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\Collections\\List.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\Nullable.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\UInt8.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\Numerics\\Bool4.bf"]
+RecentFilesList = ["src\\Program2.bf", "src\\ReplayFrame.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\IO\\Stream.bf", "src\\ShavitReplay.bf"]
 
 [MainWindow]
-X = -9
-Y = 0
+X = 193
+Y = -8
 Width = 1200
 Height = 1024
 ShowKind = "Maximized"
 
 [MainDockingFrame]
 Type = "DockingFrame"
-SplitType = 1
+SplitType = 2
 
 [[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 968.0
+RequestedHeight = 400.0
+SizePriority = 400.0
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
 RequestedWidth = 268.0
 RequestedHeight = 250.0
 Type = "TabbedView"
 
-[[MainDockingFrame.DockedWidgets.Tabs]]
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Workspace"
 TabWidth = 115.0
 Type = "ProjectPanel"
 
-[[MainDockingFrame.DockedWidgets]]
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
 RequestedWidth = 250.0
 RequestedHeight = 400.0
 SizePriority = 250.0
 Type = "DockingFrame"
 SplitType = 2
 
-[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
 IsFillWidget = true
 Permanent = true
 RequestedWidth = 150.0
@@ -41,95 +48,45 @@ SizePriority = 150.0
 DefaultDocumentsTabbedView = true
 Type = "TabbedView"
 
-[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "ReplayFrame.bf"
-TabWidth = 130.0
+TabWidth = 120.0
 Type = "SourceViewPanel"
 FilePath = "src\\ReplayFrame.bf"
+CursorPos = 984
 ProjectName = "BeefLangStuff"
 
-[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-Active = true
-TabLabel = "Program2.bf"
-TabWidth = 113.0
-Type = "SourceViewPanel"
-FilePath = "src\\Program2.bf"
-CursorPos = 293
-ProjectName = "BeefLangStuff"
-
-[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-TabLabel = "List.bf"
-TabWidth = 74.0
-Type = "SourceViewPanel"
-FilePath = "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\Collections\\List.bf"
-CursorPos = 532
-VertPos = 45.0
-ProjectName = "corlib"
-
-[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-TabLabel = "Nullable.bf"
-TabWidth = 103.0
-Type = "SourceViewPanel"
-FilePath = "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\Nullable.bf"
-CursorPos = 1801
-VertPos = 720.0
-ProjectName = "corlib"
-
-[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-TabLabel = "String.bf"
-TabWidth = 89.0
-Type = "SourceViewPanel"
-FilePath = "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\String.bf"
-CursorPos = 999
-VertPos = 255.0
-ProjectName = "corlib"
-
-[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-TabLabel = "UInt8.bf"
-TabWidth = 85.0
-Type = "SourceViewPanel"
-FilePath = "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\UInt8.bf"
-CursorPos = 398
-ProjectName = "corlib"
-
-[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-TabLabel = "Bool4.bf"
-TabWidth = 88.0
-Type = "SourceViewPanel"
-FilePath = "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\Numerics\\Bool4.bf"
-CursorPos = 177
-ProjectName = "corlib"
-
-[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "ShavitReplay.bf"
-TabWidth = 128.0
+TabWidth = 118.0
 Type = "SourceViewPanel"
 FilePath = "src\\ShavitReplay.bf"
-CursorPos = 1172
-VertPos = 540.0
+CursorPos = 871
 ProjectName = "BeefLangStuff"
 
-[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-TabLabel = "Program3.bf"
-TabWidth = 113.0
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Program2.bf"
+TabWidth = 103.0
 Type = "SourceViewPanel"
-FilePath = "src\\Program3.bf"
-CursorPos = 121
+FilePath = "src\\Program2.bf"
+CursorPos = 3044
+VertPos = 1305.0
 ProjectName = "BeefLangStuff"
 
-[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
 RequestedWidth = 250.0
 RequestedHeight = 250.0
 Type = "DockingFrame"
 SplitType = 1
 
-[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets]]
 RequestedWidth = 250.0
 RequestedHeight = 250.0
-SizePriority = 0.3622573
+SizePriority = 0.2190636
 Type = "TabbedView"
 
-[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Memory"
 TabWidth = 99.0
@@ -137,51 +94,63 @@ Type = "MemoryPanel"
 AutoResize = "Auto_Mul8"
 RequestedWidth = 300.0
 
-[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 250.0
+SizePriority = 0.7809365
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Threads"
+TabWidth = 97.0
+Type = "ThreadPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Call Stack"
+TabWidth = 105.0
+Type = "CallStackPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Immediate"
+TabWidth = 111.0
+Type = "ImmediatePanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Output"
+TabWidth = 90.0
+Type = "OutputPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Find Results"
+TabWidth = 119.0
+Type = "FindResultsPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 450.0
+RequestedHeight = 250.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
 TabLabel = "Watch"
 TabWidth = 86.0
 Type = "WatchPanel"
 Columns = [{Width = 200.0}, {Width = 200.0}, {Width = 200.0}]
+Items = ["stream.Position", "header", "__clearHighBits(mAllocSizeAndFlags, 2)", "__clearHighBits(mAllocSizeAndFlags, 2)", "ReadFrame", ""]
 
-[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Auto"
 TabWidth = 77.0
 Type = "AutoWatchPanel"
 Columns = [{Width = 200.0}, {Width = 200.0}, {Width = 200.0}]
 
-[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
-RequestedWidth = 250.0
-RequestedHeight = 250.0
-SizePriority = 0.6377428
-Type = "TabbedView"
-
-[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
-Active = true
-TabLabel = "Find Results"
-TabWidth = 119.0
-Type = "FindResultsPanel"
-
-[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
-TabLabel = "Threads"
-TabWidth = 97.0
-Type = "ThreadPanel"
-
-[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
-TabLabel = "Call Stack"
-TabWidth = 105.0
-Type = "CallStackPanel"
-
-[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
-TabLabel = "Immediate"
-TabWidth = 111.0
-Type = "ImmediatePanel"
-
-[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
-TabLabel = "Output"
-TabWidth = 90.0
-Type = "OutputPanel"
-
 [[Breakpoints]]
 File = "src\\HeapProperties.bf"
 Line = 20
+Column = 3
+
+[[Breakpoints]]
+File = "src\\Program2.bf"
+Line = 142
 Column = 3

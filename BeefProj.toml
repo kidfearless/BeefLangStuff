@@ -2,7 +2,7 @@ FileVersion = 1
 
 [Project]
 Name = "BeefLangStuff"
-StartupObject = "BeefLangStuff.Program3"
+StartupObject = "BeefLangStuff.Program2"
 
 [[ProjectFolder.Items]]
 Type = "IgnoreSource"
