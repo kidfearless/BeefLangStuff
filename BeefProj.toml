@@ -2,4 +2,8 @@ FileVersion = 1
 
 [Project]
 Name = "BeefLangStuff"
-StartupObject = "BeefLangStuff.Program"
+StartupObject = "BeefLangStuff.Program3"
+
+[[ProjectFolder.Items]]
+Type = "IgnoreSource"
+Name = "Program1.bf"

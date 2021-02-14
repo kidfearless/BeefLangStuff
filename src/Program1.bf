@@ -4,7 +4,6 @@ namespace BeefLangStuff
 {
 	class Program
 	{
-
 		public static int Main(String[] args)
 		{
 			MainScope:
@@ -15,8 +14,9 @@ namespace BeefLangStuff
 
 				delete input;
 				return 0;
-			}	
+			}
 		}
+
 
 		// this does indeed create a memory leak
 		static void CreateMemoryLeak()
@@ -55,7 +55,7 @@ namespace BeefLangStuff
 		{
 			// this should work as we are creating a heap string, this leaves the memory management to the caller
 			var str = new String();
-			var _ = Console.ReadLine(str);
+			Console.ReadLine(str);
 
 			return str;
 		}
