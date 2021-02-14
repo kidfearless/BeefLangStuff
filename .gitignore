@@ -5,3 +5,6 @@ build/*
 recovery/*
 BeefSpace_User.toml
 *.dmp
+csharp_src/BeefLangStuff/obj/*
+csharp_src/BeefLangStuff/bin/*
+csharp_src/BeefLangStuff/.vs/*

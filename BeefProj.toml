@@ -4,6 +4,9 @@ FileVersion = 1
 Name = "BeefLangStuff"
 StartupObject = "BeefLangStuff.Program2"
 
+[Configs.Release.Win64]
+OptimizationLevel = "O3"
+
 [[ProjectFolder.Items]]
 Type = "IgnoreSource"
 Name = "Program1.bf"
