@@ -3,3 +3,7 @@ Projects = {BeefLangStuff = {Path = "."}}
 
 [Workspace]
 StartupProject = "BeefLangStuff"
+
+[Configs.Release.Win64]
+BfOptimizationLevel = "O3"
+EmitDebugInfo = "No"

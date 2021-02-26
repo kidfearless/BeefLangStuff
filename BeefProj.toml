@@ -2,7 +2,7 @@ FileVersion = 1
 
 [Project]
 Name = "BeefLangStuff"
-StartupObject = "BeefLangStuff.Program2"
+StartupObject = "BeefLangStuff.AverageMethods"
 
 [Configs.Release.Win64]
 OptimizationLevel = "O3"

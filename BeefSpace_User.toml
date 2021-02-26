@@ -1,11 +1,11 @@
 FileVersion = 1
 LastConfig = "Release"
 LastPlatform = "Win64"
-RecentFilesList = ["src\\Program2.bf", "src\\Program3.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\Diagnostics\\Stopwatch.bf", "src\\ReplayFrame.bf", "src\\ShavitReplay.bf", "src\\Vector2.bf", "src\\Vector3.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\String.bf", "Disassembly", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\IO\\Stream.bf"]
+RecentFilesList = ["src\\AverageMethods.bf", "src\\Program2.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\IO\\StreamReader.bf", "src\\Program3.bf", "Disassembly", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\String.bf", "src\\Vector3.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\IO\\MemoryStream.bf", "src\\ReplayFrame.bf", "src\\ShavitReplay.bf", "src\\Vector2.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\IO\\Stream.bf"]
 
 [MainWindow]
-X = 67
-Y = 208
+X = 149
+Y = -20
 Width = 1200
 Height = 1024
 ShowKind = "Maximized"
@@ -49,8 +49,26 @@ DefaultDocumentsTabbedView = true
 Type = "TabbedView"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "StreamReader.bf"
+TabWidth = 137.0
+Type = "SourceViewPanel"
+FilePath = "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\IO\\StreamReader.bf"
+CursorPos = 8063
+VertPos = 4245.0
+ProjectName = "corlib"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "AverageMethods.bf"
+TabWidth = 155.0
+Type = "SourceViewPanel"
+FilePath = "src\\AverageMethods.bf"
+CursorPos = 202
+ProjectName = "BeefLangStuff"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Program3.bf"
-TabWidth = 113.0
+TabWidth = 103.0
 Type = "SourceViewPanel"
 FilePath = "src\\Program3.bf"
 CursorPos = 56
@@ -58,7 +76,7 @@ ProjectName = "BeefLangStuff"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Vector2.bf"
-TabWidth = 100.0
+TabWidth = 90.0
 Type = "SourceViewPanel"
 FilePath = "src\\Vector2.bf"
 CursorPos = 333
@@ -66,7 +84,7 @@ ProjectName = "BeefLangStuff"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Vector3.bf"
-TabWidth = 100.0
+TabWidth = 90.0
 Type = "SourceViewPanel"
 FilePath = "src\\Vector3.bf"
 CursorPos = 422
@@ -74,16 +92,15 @@ ProjectName = "BeefLangStuff"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "String.bf"
-TabWidth = 89.0
+TabWidth = 79.0
 Type = "SourceViewPanel"
 FilePath = "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\String.bf"
 CursorPos = 28612
-VertPos = 17805.0
 ProjectName = "corlib"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Disassembly"
-TabWidth = 112.0
+TabWidth = 122.0
 Type = "DisassemblyPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
@@ -92,7 +109,6 @@ TabWidth = 120.0
 Type = "SourceViewPanel"
 FilePath = "src\\ReplayFrame.bf"
 CursorPos = 420
-VertPos = 135.0
 ProjectName = "BeefLangStuff"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
@@ -101,17 +117,15 @@ TabWidth = 118.0
 Type = "SourceViewPanel"
 FilePath = "src\\ShavitReplay.bf"
 CursorPos = 682
-VertPos = 855.0
 ProjectName = "BeefLangStuff"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
-Active = true
 TabLabel = "Program2.bf"
 TabWidth = 103.0
 Type = "SourceViewPanel"
 FilePath = "src\\Program2.bf"
-CursorPos = 1444
-VertPos = 540.0
+CursorPos = 949
+VertPos = 75.0
 ProjectName = "BeefLangStuff"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
